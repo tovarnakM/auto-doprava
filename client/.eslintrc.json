@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "standard",
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended"
+  ],
+  "plugins": ["react", "import", "jsx-a11y"],
+  "rules": {
+    "react/prop-types": 0,
+    "import/no-unresolved": 0
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
+}
